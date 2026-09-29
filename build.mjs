@@ -6,5 +6,7 @@ await copyFile('index.html', 'dist/index.html');
 await cp('assets', 'dist/assets', { recursive: true });
 
 await cp('upsell', 'dist/upsell', { recursive: true });
+await cp('downsell', 'dist/downsell', { recursive: true });
+await cp('gracias', 'dist/gracias', { recursive: true });
 
 console.log('dist pronto per Netlify');
